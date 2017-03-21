@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+    http://java.sun.com/xml/ns/javaee/webjsptaglibrary_2_1.xsd">
+	<tlib-version>1.2</tlib-version>
+	<uri>elFunction</uri>
+	<function>
+		<name>now</name>
+		<function-class>
+			com.apress.elfunction.Now
+		</function-class>
+		<function-signature>
+			String now()
+		</function-signature>
+
+	</function>
+</taglib>
